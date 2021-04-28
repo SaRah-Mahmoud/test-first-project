@@ -1,0 +1,57 @@
+/* ****** Start Navbar *******/
+ .navbar {
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a{
+  font-size: 14px;
+  color: #999999 !important;
+  font-family: 'Poppins', helvetica;
+  text-transform: capitalize;
+}
+
+
+/******* End   Navbar *******/
+/******* start header *******/
+header {
+    background-image: url(../img/home-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .slide-description h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+header .slide-description p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+header .list-social li {
+    float: left;
+    margin-right: 20px;
+  }
+header .list-social li i {
+    color: #fff;
+    font-size: 15px;
+}
+/******* End header *******/
