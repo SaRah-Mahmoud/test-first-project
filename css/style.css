@@ -94,3 +94,34 @@ header .list-social li i {
     }
 }
 /********End Section 2*********/
+.container-fluid
+{
+background-color: #f7f7f7;; 
+}
+.container-fluid h2{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.member a{
+font-weight: bolder;
+font-size: 20px;
+color: rgb(71, 71, 71);
+text-decoration: none;
+transition: 0.5s color;
+
+}
+.member p
+{
+font-size: 20px;
+
+}
+.member a:hover{
+color: #b8a07e;;
+}
+
+
+
+
+
+
