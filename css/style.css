@@ -120,8 +120,33 @@ font-size: 20px;
 color: #b8a07e;;
 }
 
-
-
-
+/******* section 5 *******/
+.btn-send{
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #212529;
+    color: #fff;
+    }
+    textarea{
+        min-height: 160px;
+    }
+    .socials-media i {
+        font-size: 24px;
+        color: #999;
+        padding: 25px;
+    }
+    .contact p {
+        color: #999;
+        padding: 0;
+        margin: 5px 0;
+    }
+    footer p a {
+        color: #292929;
+    }
+    footer {
+        background: #f7f7f7;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
 
