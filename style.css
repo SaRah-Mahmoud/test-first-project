@@ -1,0 +1,152 @@
+/* ****** Start Navbar *******/
+ .navbar {
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a{
+  font-size: 14px;
+  color: #999999 !important;
+  font-family: 'Poppins', helvetica;
+  text-transform: capitalize;
+}
+
+
+/******* End   Navbar *******/
+/******* start header *******/
+header {
+    background-image: url(../img/home-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .slide-description h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+header .slide-description p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+header .list-social li {
+    float: left;
+    margin-right: 20px;
+  }
+header .list-social li i {
+    color: #fff;
+    font-size: 15px;
+}
+/******* End header *******/
+
+/********Section 2*********/
+.about-img .brdr{
+    width: 66%;
+    height: 95%;
+    border: 25px solid #b8a07e;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.about-img .image{
+    width: 100%;
+   position: relative;
+   top: 0px;
+   left: 60px;
+}
+.about-img .image img{
+    width: 66%;
+    height: 95%;
+}
+.about-img .content h2{
+    font-size: 30px;
+}
+@media screen and (max-width:980px){
+    .about-img .brdr{
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .about-img .image img{
+        width: 100%;
+        height: 85%;
+    }
+    .about-img .image{
+        left: 0;
+        top: 25px;
+    }
+}
+/********End Section 2*********/
+.container-fluid
+{
+background-color: #f7f7f7;; 
+}
+.container-fluid h2{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.member a{
+font-weight: bolder;
+font-size: 20px;
+color: rgb(71, 71, 71);
+text-decoration: none;
+transition: 0.5s color;
+
+}
+.member p
+{
+font-size: 20px;
+
+}
+.member a:hover{
+color: #b8a07e;;
+}
+
+/******* section 5 *******/
+.btn-send{
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #212529;
+    color: #fff;
+    }
+    textarea{
+        min-height: 160px;
+    }
+    .socials-media i {
+        font-size: 24px;
+        color: #999;
+        padding: 25px;
+    }
+    .contact p {
+        color: #999;
+        padding: 0;
+        margin: 5px 0;
+    }
+    footer p a {
+        color: #292929;
+    }
+    footer {
+        background: #f7f7f7;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
