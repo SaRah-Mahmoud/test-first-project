@@ -94,6 +94,43 @@ header .list-social li i {
     }
 }
 /********End Section 2*********/
+/********Section 3*********/
+.item{
+    overflow: hidden;
+}
+.brand a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.app h4{
+    color: #000;
+    font-weight: 400;
+
+} 
+.app p{
+    color: #555;
+    font-size: 18px;
+}
+.app-icon i{
+    font-size: 24px;
+    color: #b8a07e;
+}
+.item{
+     position: relative;
+}
+.box{
+    position: absolute;
+    top: 120%;
+    bottom: 20px;
+    width: 100%;
+    transition: all .5s;
+}
+.item:hover .box{
+top: 60%;
+
+}
+/********End Section 3*********/
 .container-fluid
 {
 background-color: #f7f7f7;; 
